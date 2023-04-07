@@ -1,0 +1,185 @@
+<?php
+
+$help_sections['title']['templates'] ="模板";
+$help_sections['body']['templates'] = <<<HTML
+模板用于改变新闻的视图。您可以更改用于显示新闻不同部分的模板的各个部分。例如，“文章注释”用于更改活动新闻的外观，“完整文章”用于更改完整文章的外观，“评论”用于更改评论的外观等。<br><br>
+您可以在编辑模板的部分时使用 HTML 来更改各种结构。您需要在模板中添加一些特殊符号，以定义新闻标题、作者姓名、日期等的位置。模板的每个部分都对应着一个特定的指定符号。<br>
+变量的值可以在模板编辑页面上查看。单击模板部分的名称即可访问此页面。例如：<b>{title}</b> 是文章的标题，<b>{author}</b> 是文章的作者等。<br><br>
+您可以使用几种不同的模板。
+HTML;
+
+$help_sections['title']['xfields'] ="额外字段";
+$help_sections['body']['xfields'] = <<<HTML
+额外字段可以通过<b>设置</b> &gt; <b>额外字段</b>启用。例如，在文章中发布对原始来源的引用时，这个功能非常有用。<br>
+通过点击“添加字段”来添加新字段。在下一页中，您需要为字段输入一个唯一的名称、字段的描述以及默认的字段内容。您还需要选择是否要使用可选字段。如果您不使用这样的字段，可以在添加/编辑文章时将其留空。在这种情况下，该模块将不会包含该字段。<br><br>
+如果您想在新闻页面上使用此字段，则需要在模板中添加变量<b>[xfvalue_X]</b>，其中<b>X</b>是字段的值（即您添加新字段时输入的名称）。您还可以使用<b>[xfgiven_X]...[/xfgiven_X]</b>，如果已设置附加字段，则显示在它们之间指定的文本。还可以使用<b>[xfnotgiven_X]...[/xfnotgiven_X]</b>，如果未设置附加字段，则显示在它们之间指定的文本。<br><br>
+例如：
+<div class="code">
+<b>1)</b> - 字段名称：stit<br>
+&nbsp;&nbsp;- 描述：信息来源<br>
+&nbsp;&nbsp;- 默认值：我<br>
+&nbsp;&nbsp;- 可选：是<br>
+<b>2)</b> - 字段名称：source<br>
+&nbsp;&nbsp;- 描述：链接到信息来源<br>
+&nbsp;&nbsp;- 默认值：http://server.com/<br>
+&nbsp;&nbsp;- 可选：是<br><br>
+[xfgiven_source]来源 - &lt;a href=[xfvalue_source] target=_blank&gt;[xfvalue_stit]&lt;/a&gt;.[/xfgiven_source]<br>
+[xfnotgiven_source]未指定来源[/xfnotgiven_source]</div>
+如果在发布过程中设置了该字段，则将显示以下HTML代码作为结果：
+<div class="code">来源 - &lt;a href=http://server.com/ target=_blank&gt;我&lt;/a&gt;。</div>
+如果在发布过程中未设置该字段，则将显示以下内容：
+<div class="code"> 未指定来源 </div>
+请记住，字段名称只能使用拉丁字符和数字。
+HTML;
+
+$help_sections['title']['xprofile'] ="用户资料中的额外字段";
+$help_sections['body']['xprofile'] = <<<HTML
+该功能用于在用户资料中添加新字段，以补充现有的字段。<br><br>
+点击“添加字段”按钮以添加新字段。在下一页中，您需要输入一个唯一的字段名称和一个字段描述。您还需要选择是否允许用户在注册期间添加其他信息，以及该字段是否完全个人，以及用户是否可以进一步编辑此字段的内容。<br><br>
+当查看评论和用户资料时，将提供额外的字段。您需要将 [xfvalue_X] 添加到模板中，其中 X 是字段的值（即您添加新字段时输入的名称）。您还可以使用 [xfgiven_X]...[/xfgiven_X]。<br><br>
+例如：
+<div class="code">
+&nbsp;&nbsp;- 字段名称：城市<br>
+&nbsp;&nbsp;- 描述：城市<br>
+&nbsp;&nbsp;- 字段类型：单个字符串<br>
+&nbsp;&nbsp;- 添加到注册页面：是<br>
+&nbsp;&nbsp;- 用户可以更改该字段：是<br>
+&nbsp;&nbsp;- 使此字段为个人字段：否<br><br>
+在 comments.tpl 和 userinfo.tpl 中，您需要添加<br>
+[xfgiven_city] 城市：[xfvalue_city] [/xfgiven_city]</div>
+如果用户在用户资料中添加了任何城市，例如“莫斯科”，则将出现以下 HTML 代码作为结果：
+<div class="code">城市：莫斯科</div>
+请记住，字段的标题只能使用拉丁字符和数字。
+HTML;
+
+$help_sections['title']['banners'] ="广告管理";
+$help_sections['body']['banners'] = <<<HTML
+该模块旨在快速简便地在本网站上放置和管理您的广告材料。您只需要将横幅的标记添加到模板中即可在网站上放置横幅。之后，您就可以在管理面板中更改或编辑横幅代码，而无需触及模板。<br /><br />
+添加横幅后，您可以将其标记放置在 <b>main.tpl</b> 或 <b>fullstory.tpl</b> 模板中。如果您想在文章摘要之间添加横幅，则不需要添加此标记。它将自动放置在那里。
+<br />例如：
+<div class="code">
+&nbsp;&nbsp;- 标题：头部<br>
+&nbsp;&nbsp;- 描述：顶部横幅<br>
+&nbsp;&nbsp;- 启用横幅显示：是<br>
+&nbsp;&nbsp;- 仅在主页上显示：否<br>
+&nbsp;&nbsp;- 固定位置：否<br>
+&nbsp;&nbsp;- 放置在短文章之间：否<br><br>
+然后，您可以将您的横幅标记 <b>{banner_header}</b> 添加到 <b>main.tpl</b> 或 <b>fullstory.tpl</b> 中。<br />
+</div>
+添加横幅代码时，您可以使用 HTML 和 JavaScript。
+HTML;
+
+
+$help_sections['title']['date'] ="本地时间和日期格式";
+$help_sections['body']['date'] = <<<HTML
+下列符号可以在格式字符串中使用：
+<ul>
+<li><b>a</b> - "上午"或"下午"</li>
+<li><b>A</b> - "上午"或"下午"（大写）</li>
+<li><b>B</b> - 斯沃奇互联网时间</li>
+<li><b>d</b> - 日期，2位数字，如果必要则带前导零；从"01"到"31"</li>
+<li><b>D</b> - 星期几，字母形式，3个字母；例如"周五"</li>
+<li><b>F</b> - 月份，字母形式，长；例如"一月"</li>
+<li><b>g</b> - 小时，12小时制，没有前导零；从"1"到"12"</li>
+<li><b>G</b> - 小时，24小时制，没有前导零；从"1"到"23"</li>
+<li><b>h</b> - 小时，12小时制；从"01"到"12" </li>
+<li><b>H</b> - 小时，24小时制；从"00"到"23" </li>
+<li><b>i</b> - 分钟；从"00"到"59"</li>
+<li><b>I</b>（大写 'i'） - 如果使用夏令时，则为 "1"，否则为 "0"。</li>
+<li><b>j</b> - 没有前导零的日期；从"1"到"31" </li>
+<li><b>l</b>（小写 'L'） - 星期几，字母形式，长；例如"星期五" </li>
+<li><b>L</b> - 布尔值，指示是否为闰年；"0"或"1"</li> 
+<li><b>m</b> - 月份；从"01"到"12"</li>
+<li><b>M</b> - 月份，字母形式，3个字母；例如"1月" </li>
+<li><b>n</b> - 没有前导零的月份；从"1"到"12" </li>
+<li><b>O</b> - 相对于格林威治平均时间的差异，以小时为单位；例如，"+0200" </li>
+<li><b>r</b> - RFC 822日期格式；例如"Thu, 21 Dec 2000 16:01:07 +0200"（在 PHP 4.0.4 中引入）</li>
+<li><b>s</b> - 秒；从"00"到"59"</li>
+<li><b>S</b> - 英文后缀，表示日期的第二个字符；"st"、"nd"、"rd"或"th"</li>
+<li><b>t</b> - 指定月份的天数；从"28"到"31" </li>
+<li><b>T</b> - 设置此计算机的时区；例如"EST"或"MDT" </li>
+<li><b>U</b> - 自 Unix 纪元（1970 年 1 月 1 日 00:00:00 GMT）起的秒数 </li>
+<li><b>w</b> - 一周中的日期，数字表示，从 "0"（周日）到 "6"（周六） </li>
+<li><b>W</b> - ISO-8601 年的周数，以周一开始
+（在 PHP 4.1.0 中引入）</li>
+<li><b>Y</b> - 年份，4 位数字；例如，"1999"</li>
+<li><b>y</b> - 年份，2 位数字；例如，"99" </li>
+<li><b>z</b> - 一年中的日期，从 "0" 到 "365"</li>
+<li><b>Z</b> - 时区偏移量，以秒为单位（从 "-43200" 到 "43200"）。 时区偏移量始终为 UTC 西侧的负数，始终为 UTC 东侧的正数。</li></ul>
+HTML;
+
+$help_sections['title']['social'] ="配置授权";
+$help_sections['body']['social'] = <<<HTML
+<div class="bg-primary-700" style="padding:10px;">使用Vkontakte配置授权</div>
+首先，您需要为<a href="http://vk.com/editapp?act=create" target="_blank">Vkontakte</a>网络创建一个新的应用程序。<br><br>
+在打开的表格中，您应该输入应用程序的名称。选择“Веб-сайт”，并输入您的网站地址：http://yoursite.com/index.php?do=auth-social&provider=vk。将yoursite.com替换为您的基本域名。
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/vk1.jpg" /></div>
+<br />在您点击“Подключить сайт”后，您必须输入一个短期内会收到的SMS验证码。如果验证码验证通过，则应显示以下应用程序设置表单：
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/vk2.jpg" /></div>
+<br />您需要从此表单中获取“ID прилож程序”和“Защищённый ключ”等数据，您必须在脚本的管理面板中，社交网络设置中输入这些字段。这些字段将是您的网站唯一的，它们无法从上面的截图中复制。
+<br /><br />之后，请将以下代码放入<b>login.tpl</b>：
+<div class="code">[vk]&lt;a href="{vk_url}" target="_blank"&gt;使用Vkontakte登录&lt;/a&gt;[/vk]</div>
+其中，[vk] … [/vk] 标签会显示其之间的文本，如果启用了使用Vkontakte网络进行授权，则会显示。{vk_url}标记显示到社交网络授权的URL链接。
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">使用Odnoklassniki配置授权</div>
+您需要填写<a href="http://www.odnoklassniki.ru/devaccess" target="_blank">表格并获取开发者帐户</a>，以注册使用Odnoklassniki网络进行授权的网站。之后，打开<a href="http://www.odnoklassniki.ru/games" target="_blank">"Игры"</a>部分，找到菜单右侧的链接<a href="http://www.odnoklassniki.ru/dk?st.cmd=appsInfoMyDevList&st._aid=Apps_Info_MyDev" target="_blank">"Мои загруженные"</a>。点击 "добавить приложение" 并填写表格：<br><br>
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/odnoklassniki1.jpg" /></div>
+<br />在这里指定“Веб”应用程序类型，并选中“External”。在“Ссылка на приложение”和“Список разрешённых redirect_uri”中指定：http://yoursite.com/index.php?do=auth-social&provider=od，并选中“Разрешить клиентскую OAuth авторизацию”。添加新应用程序后，您将收到一封包含所需设置的电子邮件。
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/odnoklassniki2.jpg" /></div>
+<br />您将需要以下选项："Application ID"，"Публичный ключ приложения"，"Секретный ключ приложения"，您应该在社交网络设置中的脚本管理面板中输入这些字段。这些字段将是您网站的唯一字段，不能从上面的截图中复制。
+<br /><br />之后，将以下代码放入<b>login.tpl</b>：
+<div class="code">[odnoklassniki]&lt;a href="{odnoklassniki_url}" target="_blank"&gt;使用Odnoklassniki登录&lt;/a&gt;[/odnoklassniki]</div>
+如果启用了使用Odnoklassniki网络进行授权，则标记[odnoklassniki] ... [/odnoklassniki]会显示其中包含的文本。标记{odnoklassniki_url}显示社交网络中授权的URL链接。
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">使用Facebook进行授权设置</div>
+首先，您需要为Facebook网络创建一个新的应用程序。<a href="https://developers.facebook.com/apps" target="_blank">点击此处</a>，在右上角单击“+创建新应用程序”。然后输入应用程序的名称：
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/fc1.jpg" /></div>
+<br /> 接下来，在应用程序的设置页面上，点击“添加平台”。然后选择“网站”，并输入您网站的地址：http://yoursite.com/
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/fc2.jpg" /></div>
+<br /> 然后保存您的所有设置。进行后续的工作，您需要在以下字段中找到的选项：
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/fc3.jpg" /></div>
+<br />将这些选项输入到社交网络设置的脚本管理面板中。这些字段将是您网站的唯一标识，不能从上面的屏幕截图中复制。
+<br /><br />然后将以下代码放置在<b> login.tpl </b>中：
+<div class="code"> [facebook] &lt;a href="{facebook_url}" target="_blank"&gt;使用Facebook登录&lt;/a&gt;[/facebook]</div>
+标签[facebook]...[/facebook]显示它们之间的文本，如果启用了使用Facebook网络的授权，则标签{facebook_url}将显示指向社交网络中授权的URL链接。
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">使用Google配置授权</div>
+首先需要创建一个新的应用程序<a href="https://code.google.com/apis/console/" target="_blank">Google</a>。在导航到该页面后，点击“创建项目”。
+<div style="text-align:center;"><img src="engine/skins/images/google1.jpg" /></div>
+填写完表单后，进入库并点击Google+ API（顶部应该是您创建的项目的名称）
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google2.jpg" /></div>
+<br />包括这个API，激活后，您将被提示创建凭据。填写表单。并保存：
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google3.jpg" /></div>
+<br />填写表单：
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google4.jpg" /></div>
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google5.jpg" /></div>
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/google6.jpg" /></div>
+<br />您将需要以下选项：“客户端ID”和“客户端密钥”，您需要在社交网络设置中的脚本管理面板中输入这些字段。这些字段将是您网站的唯一字段，不能从上面的截图中复制。
+<br /><br />之后，将以下代码放入<b>login.tpl</b>：
+<div class="code">[google]&lt;a href="{google_url}" target="_blank"&gt;使用 Google 登录&lt;/a&gt;[/google]</div>
+其中 [google] ... [/google] 标签会在启用 Google 授权时显示其中包含的文本。标签 {google_url} 显示网络授权的 URL 链接。
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">配置 Mail.Ru 授权</div>
+首先，您需要在 <a href="https://o2.mail.ru/app/new/" target="_blank">https://o2.mail.ru/app/new/</a> 上创建一个新应用。
+<br><br>
+接下来，请填写下面的表格：
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru1.jpg" /></div>
+<br />对于 redirect_uri，请使用 https://site.com/index.php?do=auth-social&provider=mailru 其中 site.com 是您的域名。
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru2.jpg" /></div>
+<br />您将需要以下选项："ID" 和 "Secret Key"，您应该将它们输入到脚本的管理面板中的社交网络设置中。这些字段将是您网站独有的，无法从上面的截图中复制。
+<br /><br />之后，请在<b>login.tpl</b>中放置以下代码：
+<div class="code">[mailru]&lt;a href="{mailru_url}" target="_blank"&gt;使用 Mail.Ru 登录&lt;/a&gt;[/mailru]</div>
+其中 [mailru] ... [/mailru] 标签会在启用 Mail.Ru 授权时显示其中包含的文本。标签 {mailru_url} 显示网络授权的 URL 链接。
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">使用 Yandex 配置授权</div>
+首先，您需要在<a href="https://oauth.yandex.ru/client/new" target="_blank">Yandex</a>上创建一个新的应用程序。<br><br>
+<div style="text-align:center;"><img src="engine/skins/images/yandex1.jpg" /></div>
+<br />标题将为“Yandex Auth”。选择“Яндекс.Логин”并选择所有项目：电子邮件地址、出生日期、全名的用户名。如果用户在用户资料中输入了所有数据，我们将获得对它们的访问权限。下一页将显示带有特殊参数的块：
+<div style="text-align:center;"><img src="engine/skins/images/yandex2.jpg" /></div>
+<br />您将需要以下选项：“ID приложения”和“Пароль приложения”，您应该将它们输入到脚本社交网络设置的管理面板中。这些字段将是您网站的唯一字段，不能从上面的截图中复制。
+<br /><br />然后，将以下代码放入<b>login.tpl</b>：
+<div class="code">[yandex]&lt;a href="{yandex_url}" target="_blank"&gt;使用 Yandex 登录&lt;/a&gt;[/yandex]</div>
+其中，标签 [yandex] ... [/yandex] 如果启用 Yandex 授权，则显示其中包含的文本。标签 {yandex_url} 显示在网络中进行授权的 URL 链接。
+HTML;
+
+?>

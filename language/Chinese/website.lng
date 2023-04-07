@@ -1,0 +1,1159 @@
+<?php
+
+$lang = array (
+
+'charset'			=>	"utf-8",
+'wysiwyg_language'	=>  "zh-cn",
+
+// 15.3
+'media_upload_st_5'         => "拖放图片到这里",
+'subscribe_info_4'      => "您确定要取消订阅该发布的评论吗？",
+'subscribe_info_5'      => "您已成功取消订阅该发布的评论",
+// 15.3
+
+// 15.2
+'news_info_9'       => "已禁用对此发布的评论功能。",
+// 15.2
+
+// 15.1
+'error_complaint_3'         => "投诉的最大长度不能超过2,000个字符。",
+'fav_plus_err_1'        => "此文章已经被添加到您的书签中。",
+'fav_plus_err_2'        => "该文章仍在等待管理员的审核，因此不能添加到您的书签中。",
+'duplicate_protect'         => "数据已经成功发送。",
+// 15.1
+
+// 15.0
+'file_not_image'        => "只允许上传JPG、PNG、GIF、BMP或WebP格式的文件。",
+// 15.0
+
+// 14.3
+'req_field_1'       => "请填写姓名栏",
+'req_field_2'       => "请填写消息栏",
+'req_field_3'       => "请填写消息主题栏",
+'share_i_1'         => "共享选定文本的链接",
+'share_i_2'         => "Twitter",
+'share_i_3'         => "Facebook",
+'share_i_4'         => "Вконтакте",
+'share_i_5'         => "直接链接：",
+'share_i_6'         => "右键单击并选择“复制链接”",
+// 14.3
+
+// 14.2
+'pm_err_12'         => "请登录您的帐户以阅读消息",
+'pm_err_13'         => "仅注册用户可以使用私人消息。如果您尚未注册，请登录您的帐户或注册。",
+// 14.2
+
+// 14.1
+'pm_err_11'         => "无法发送消息，因为收件人不允许在网站上使用个人消息。",
+'reg_err_45'        => "此社交网络上的帐户当前已链接到网站上的另一个帐户<b>{login}</b>。使用此帐户登录网站，取消在您的个人资料中的链接，然后您可以将其重新链接到新帐户。",
+'reg_err_46'        => "您尚未登录网站，因此无法链接有效帐户",
+'reg_err_47'        => "您的帐户未链接到社交网络。请联系您的网站管理员解决此问题。",
+'social_attach_ok'      => "您的帐户已成功链接到您的{social}网络帐户。您可以使用它登录网站。",
+'social_attach_ok_1'        => "您的帐户已经链接到您的{social}网络帐户。您可以使用它登录网站。",
+'del_from_social'       => "您确定要将此社交网络与您在网站上的帐户取消链接吗？",
+'del_from_social_1'         => "从您在网站上的帐户中取消链接此社交网络。",
+'addnews_xf_alert_1'        => "<b>{field}</b>字段是必填字段",
+// 14.1
+
+
+// 14.0
+'January'       => "一月",
+'February'      => "二月",
+'March'         => "三月",
+'April'         => "四月",
+'May'       => "五月",
+'June'      => "六月",
+'July'      => "七月",
+'August'        => "八月",
+'September'         => "九月",
+'October'       => "十月",
+'November'      => "十一月",
+'December'      => "十二月",
+'emoji_smileys_people'      => "人物和表情符号",
+'emoji_animals_nature'      => "动物和自然",
+'emoji_food_drink'      => "食物和饮料",
+'emoji_activities'      => "活动",
+'emoji_travel_places'       => "旅行和地点",
+'emoji_objects'         => "物品",
+'emoji_symbols'         => "符号",
+'emoji_flags'       => "国旗",
+'emoji_last'        => "最近使用的表情符号",
+'enable_lastviewed'         => "要显示此块，请在管理面板的脚本设置中启用最近查看的帖子历史记录",
+'tinyapi_error'         => "您已启用TinyPNG中的图像处理。存在图像处理错误",
+'player_play'       => "播放",
+'player_pause'      => "暂停",
+'player_prev'       => "上一个",
+'player_next'       => "下一个",
+'player_mute'       => "静音",
+'player_unmute'         => "取消静音",
+'player_settings'       => "设置",
+'player_fullscreen'         => "启用全屏模式",
+'player_efullscreen'        => "禁用全屏模式",
+'player_speed'      => "速度",
+'player_normal'         => "正常",
+'player_quality'        => "画质",
+'player_pip'        => "画中画模式",
+// 14.0
+
+
+// 13.3
+'complaint_title'       => "发送投诉",
+'add_err_11'        => "网站上已有相同URL名称的其他发布物。请更改URL名称。",
+'upload_error_7'        => "上传的图像不能小于{minsize}像素。",
+// 13.3
+
+// 13.2
+'recaptcha_fail'        => "未通过验证，您可能是机器人。",
+// 13.2
+
+// 13.1
+'xf_img_descr'      => "描述",
+'like_dislike_sum'      => "赞：{likes}，踩：{dislikes}，汇总：{rating}",
+// 13.1
+
+// 13.0
+'send_pm'       => "私信：",
+'send_pm_1'         => "主题",
+'send_pm_2'         => "将此消息存储在“已发送”文件夹中",
+// 13.0
+
+// 12.1
+'rules_page'        => "网站规则",
+'xfield_xhtmljs_2'      => "出于安全原因，此字段的预览不可用",
+// 12.1
+
+
+// 12.0
+'enter_n_pass'      => "需要密码确认",
+'enter_n_pass_1'        => "要查看此文章，您必须输入管理员为此文章设置的密码",
+'enter_n_pass_2'        => "密码：",
+'enter_n_pass_3'        => "提交",
+'enter_n_pass_4'        => "<b>文章密码无效</b>",
+// 12.0
+
+// 11.3
+'sess_error'        => "您的用户会话已过期。请刷新页面，如果需要，请重新登录。",
+'feed_error_1'      => "您请求的<b>{name}</b> 模板未找到。",
+// 11.3
+
+// 11.2
+'twofactor_auth'        => "启用双因素身份验证（会向您的电子邮件地址发送一次性验证码）",
+'twofactor_alert'       => "您已经为您的账户启用了双因素身份验证。一次性验证码已发送到您的电子邮件地址。您需要输入此一次性验证码才能登录：",
+'twofactor_title'       => "输入一次性验证码",
+'twofactor_subj'        => "身份验证的一次性验证码",
+'twofactor_err_1'       => "在输入一次性验证码之前，您必须使用用户名和密码登录",
+'twofactor_err_2'       => "您尚未输入一次性验证码",
+'twofactor_err_3'       => "登录信息无效。重新加载此页面并输入您的用户名和密码。",
+'twofactor_err_4'       => "一次性验证码的有效期已过。一次性验证码仅可在请求后的15分钟内使用。",
+'twofactor_err_5'       => "无效的验证码。还剩{attempt}次尝试机会。",
+'subscribe_err_1'       => "您无权订阅评论",
+'subscribe_err_2'       => "用户身份验证错误。请重新加载此页面。",
+'subscribe_err_3'       => "您无权订阅此文章",
+'subscribe_info_1'      => "您已成功订阅了此文章的评论",
+'subscribe_info_2'      => "您已经订阅了此文章的评论",
+'subscribe_info_3'      => "您确定要订阅此文章的评论吗？",
+'mail_file_err_1'       => "您无法上传文件。可能文件太大。",
+'mail_file_err_2'       => "文件{file}无法上传。您只能上传具有扩展名{ext}的有效文件",
+'mail_file_err_3'       => "一封信中的附件的最大大小不能超过{size}千字节。",
+'mail_file_err_4'       => "附件文件的最大数量只能为{maxfiles}。",
+// 11.2
+
+// 11.1
+'bb_url_video'      => "视频 URL:",
+'bb_url_audio'      => "音频 URL:",
+'bb_url_poster'         => "视频缩略图 URL:",
+'bb_descr'      => "描述:",
+'button_insert'         => "插入",
+'button_addplaylist'        => "添加到播放列表",
+'xfield_xfimg'      => "上传图片",
+'n_unsubscribe_ok'      => "您已成功取消订阅此网站的电子邮件。",
+'n_unsubscribe_err'         => "此 URL 不正确。无法取消订阅此网站的电子邮件。请通过检查收到的电子邮件中的 URL 来验证地址栏中输入的 URL 是否正确。",
+'news_subscribe'        => "接收有关我的文章的新评论的电子邮件通知",
+'comments_reply_subscribe'      => "接收关于我的评论的回复的电子邮件通知",
+'news_unsubscribe'      => "您已订阅评论 {subscribed} [declination={subscribed}]文章|篇|条[/declination]。",
+'news_unsubscribe_1'        => "取消订阅所有文章",
+// 11.1
+
+// 11.0
+'media_upload_st5'      => "拖拽文件至此上传",
+'media_upload_st6'      => "正在上传文件：",
+'media_upload_st8'      => "从",
+'media_upload_st9'      => "上传成功",
+'media_upload_st10'         => "上传失败",
+'media_upload_st11'         => "{file} 具有错误的扩展名。只允许上传 {extensions}。",
+'media_upload_st12'         => "{file} 过大。最大尺寸为：{sizeLimit}。",
+'media_upload_st13'         => "{file} 为空。请选择另一个文件。",
+'xfield_xfim'       => "上传图片",
+'xfield_xfif'       => "上传文件",
+'xfield_xfid'       => "删除",
+'image_delete'      => "您确定要删除此图片吗？",
+'file_delete'       => "您确定要删除此文件吗？",
+'xfield_xyes'       => "是",
+'xfield_xno'        => "否",
+'feedback_not_reg'      => "未注册用户",
+'c_not_reg'         => "游客",
+'enter_login'       => "确认用户名",
+'enter_login1'      => "亲爱的 <b>{name}</b>，<br /><br />您的用户名已从社交网络自动获取。但是，您可以指定在我们的网站上使用的其他用户名。",
+'enter_login2'      => "您的用户名：",
+'enter_login3'      => "确认用户名",
+'enter_login4'      => "请注意，您只能设置一次用户名，所以请小心。",
+'reg_err_44'        => "<li>该用户名已经被注册。请选择另一个用户名。</li>",
+'add_err_10'        => "这篇文章已经通过审核，无法在此网站板块进行编辑。您只能编辑等待审核的文章。",
+'comments_empty'        => "评论已被隐藏",
+// 11.0
+
+// 10.6
+'rating_error1'         => "您不能对自己的文章进行评分",
+'rating_error2'         => "您已经对这篇文章进行过评分",
+'rating_error3'         => "您无权进行评分",
+'rating_error4'         => "您不能对自己的评论进行评分",
+'rating_error5'         => "您已经对这条评论进行过评分",
+'bb_t_sub'      => "下标文本",
+'bb_t_sup'      => "上标文本",
+'bb_t_j'        => "两端对齐",
+'bb_t_header'       => "文本标题",
+'bb_header'         => "标题",
+// 10.6
+
+// 10.5
+'reply_comments'        => "回复评论",
+'reply_comments_1'      => "回复",
+'reply_error_1'         => "您不能回复此评论",
+'reply_error_2'         => "找不到该评论",
+'reply_descr'       => "请输入您的回复内容",
+'reply_name'        => "您的名字：",
+'reply_mail'        => "您的电子邮件：",
+'question_hint'         => "为了防止垃圾邮件，请回答问题",
+'captcha_hint'      => "输入验证码",
+'news_err_46'       => "很遗憾，由于 Yandex 的 Clear Web 服务检测到您的评论文本中存在垃圾邮件的迹象，您的评论无法发布。",
+'poll_count'        => "总票数：",
+// 10.5
+
+
+// 10.4
+'reg_err_41'        => "网站管理员已启用仅使用网络账户进行授权的功能。禁用了在网站本身上的注册。",
+'bb_url_tooltip'        => "输入链接的提示文本。",
+'wait_subj'         => "将网站账户与网络账户关联",
+'reg_err_42'        => "您已使用电子邮件地址在我们的网站上注册。此用户属于管理员组，因此此账户无法与网络授权关联。",
+'reg_err_43'        => "账户关联未完成。链接仅在一次有效。",
+'auth_next'         => "继续授权",
+'auth_social_ok'        => "账户关联成功完成。您可以通过单击以下链接继续授权：",
+// 10.4
+
+// 10.3
+'system_default'        => "默认系统设置",
+'social_err_1'      => "无法连接到社交网络。无法检索用户数据。密钥不正确或服务器限制了外发的外部连接。",
+'social_err_2'      => "不支持的社交网络。",
+'social_err_3'      => "无法从社交网络检索用户数据。",
+'social_login_ok'       => "您已成功登录。现在，您将自动移动到网站。如果没有发生，请关闭窗口并重新启动网站。",
+'reg_err_36'        => "您之前已经使用电子邮件在我们的网站上注册过，无论是直接注册还是使用其他社交网络注册。请使用用户名和密码进行登录。如果您忘记了密码，请在网站上进行密码恢复。",
+'reg_err_37'        => "您需要输入您的电子邮件地址才能登录网站：",
+'reg_err_38'        => "此地址已被另一个用户使用。请重新输入另一个地址。",
+'reg_err_39'        => "您的服务器 PHP 会话工作出现问题。您需要联系您的主机支持，以测试 PHP 会话的功能。",
+'reg_err_40'        => "无法从您正在尝试登录的社交网络检索您的电子邮件地址。电子邮件地址对于登录网站至关重要。在您的社交网络设置中设置其可用性。",
+'social_next'       => "继续",
+'fav_plus'      => "发布已成功添加到您的收藏夹",
+'fav_minus'         => "发布已成功从您的收藏夹中删除",
+// 10.3
+
+
+// 10.2
+'bb_b_approve'      => "保存并发布。",
+// 10.2
+
+// 10.1
+'lost_err_2'        => "具有网站控制面板访问权限的用户，只能在网站控制面板中恢复其密码。请前往控制面板，在那里恢复您的密码。",
+'reg_err_35'        => "对不起，您不能在我们的网站上注册。我们注意到您的电子邮件地址被用于发送垃圾邮件。",
+// 10.1
+
+// 10.0
+'static_page_err'       => "对不起，页面 {page} 对您不可用：它的地址可能已更改或已删除。请使用搜索。",
+'p_del'         => "删除",
+'mail_complaint'        => "新的投诉通知",
+'mail_complaint_1'      => "该通知已从网站发送：{site}\n\n我们通知您，您已收到来自您网站的新投诉。\n\n要查看投诉并对其进行处理，您需要登录网站控制面板，然后转到“投诉列表”。",
+'reg_err_28'        => "对不起，您不能在我们的网站上注册。我们注意到您的电子邮件地址被用于发送垃圾邮件。如果您从未参与过垃圾邮件，则您的 IP 地址先前曾被垃圾邮件发送者使用。请联系您的互联网服务提供商更改您的 IP 地址，然后您就可以在我们的网站上注册了。",
+'reg_err_29'        => "对不起，您不能发表评论。我们注意到您的电子邮件地址被用于发送垃圾邮件。如果您从未参与过垃圾邮件，则您的 IP 地址或电子邮件先前曾被垃圾邮件发送者使用。请联系您的互联网服务提供商更改您的 IP 地址，然后您就可以在我们的网站上注册了。",
+'reg_err_34'        => "<li>对不起，您不能发送消息。我们注意到您的电子邮件地址被用于发送垃圾邮件。如果您从未参与过垃圾邮件，则您的 IP 地址或电子邮件先前曾被垃圾邮件发送者使用。请联系您的互联网服务提供商更改您的 IP 地址，然后您就可以在我们的网站上注册了。</li>",
+// 10.0
+
+// 9.8
+'mark_spam'         => "您确定要将用户标记为垃圾邮件发送者吗？这将删除他的所有评论。",
+// 9.8
+
+// 9.7
+'paste_text'        => "纯文本粘贴",
+'bb_t_yvideo'       => "播放来自视频服务的视频",
+'reg_err_26'        => "网站管理员已禁止在同一IP上使用多个帐户注册网站。 您的IP地址已在另一个帐户上使用。",
+'reg_err_27'        => "您已经使用此注册帐户登录。",
+// 9.7
+
+// 9.6
+'pm_progress_bar'       => "个人消息文件夹的大小为：",
+'no_pm_limit'       => "无限制",
+'pm_set_read'       => "标记为已读",
+'pm_set_unread'         => "标记为未读",
+'s_fshort'      => "文章注释：",
+'s_ffull'       => "完整文章：",
+'bb_t_t'        => "排版",
+// 9.6
+
+// 9.5
+'news_err_45'       => "您已超过每日在本站发布评论的限制。 您每天的评论数量为：<b>{max}</b>",
+'images_align'      => "对齐",
+'images_left'       => "左对齐",
+'images_right'      => "右对齐",
+'images_center'         => "居中",
+'images_none'       => "无",
+'bb_alt_image'      => "输入图像描述",
+'bb_t_audio'        => "插入音频轨道（mp3）",
+'bb_t_color'        => "选择颜色",
+'bb_t_spoiler'      => "插入剧透",
+'bb_t_flash'        => "插入Flash电影",
+'bb_t_youtube'      => "插入来自其他服务的媒体内容",
+'bb_t_list1'        => "插入列表",
+'bb_t_list2'        => "插入编号列表",
+'s_fword'       => "所有单词的精确匹配",
+'addnews_cat_sel'       => "选择一个类别...",
+// 9.5
+
+// 9.4
+'p_save'        => "保存",
+'n_save_ok'         => "更改已成功保存。刷新页面？",
+'addnews_xf_alert'      => "必填的额外字段为空",
+'editnews_error'        => "您没有权限编辑此文章。",
+'login_metod'       => "登录方式：",
+'login_err_3'       => "注意！登录网站失败。电子邮件或密码无效。",
+'xf_notig'      => "必须填写",
+'anti_modified'         => "与快照不符",
+'anti_not'      => "发布包中未知",
+'anti_subj'         => "您网站的杀毒扫描结果",
+'anti_message_1'        => "根据您的定时任务设置执行了未授权或修改的文件扫描。根据扫描结果，检测到以下可疑文件：",
+'anti_message_2'        => "强烈建议删除未知文件并检查已修改的文件。如果您没有对脚本的修改，则恢复原始脚本文件。如果这是您的修改，请在脚本的管理面板中再次对文件进行快照。",
+'big_text'      => "突出显示的文本部分太大。",
+'orfo_title'        => "输入在管理员页面上检测到的错误的评论",
+'reg_err_24'        => "您输入了错误的安全问题答案",
+'reg_err_25'        => "<li>您输入了错误的安全问题答案</li>",
+// 9.4
+
+// 9.3
+'change_mail_subj'      => "申请更改电子邮件地址",
+'change_mail'       => "<li> 尊敬的访客！您已更改您的电子邮件地址。网站管理人员要求确认所有电子邮件地址的身份。您将在10分钟内（可能更早）收到一封电子邮件，其中包含下一步的指示。如果您在此期间没有收到确认邮件，则很可能它被误判为垃圾邮件。请检查此文件夹的内容。否则，请使用其他电子邮件地址重试或联系网站管理员。</li>",
+'change_mail_1'         => "尊敬的{name}！您的电子邮件更改请求为：",
+'change_mail_2'         => "已被接受。",
+'change_mail_3'         => "请点击以下链接更改电子邮件地址：",
+'change_mail_4'         => "您没有登录。您必须使用您的登录名和密码登录网站，然后单击此链接以更改电子邮件地址。",
+'change_mail_5'         => "无法更改地址。您正在使用另一个用户名登录，或此用户未在网站上请求更改他/她的电子邮件。",
+'change_mail_6'         => "您的电子邮件地址已成功更改。",
+'news_info_7'       => "注册网站后{days}天内禁止添加文章。",
+'news_info_8'       => "注册网站后{days}天内禁止添加评论。",
+'vote_not_allow'        => "您无法在网站上投票。",
+'add_to_ignore'         => "您确定要将发件人添加到忽略列表吗？",
+'ignore_error'      => "您不能忽略自己。",
+'ignore_error_1'        => "此发件人已在您的忽略列表中。",
+'ignore_error_2'        => "您不能忽略管理组中的用户。",
+'ignore_ok'         => "发送者已添加到忽略列表。您将不再收到此用户的个人消息。您可以在网站上的个人资料中取消屏蔽此用户",
+'del_from_ignore'       => "您确定要从您的忽略列表中删除此用户吗？",
+'del_from_ignore_1'         => "从忽略列表中删除用户。",
+'ignore_del_ok'         => "该用户已成功从您的忽略列表中删除。",
+'pm_ignored'        => "此用户已将您列入忽略列表。您的消息无法发送。",
+'add_to_complaint'      => "输入您对管理部门的投诉的文本：",
+'error_complaint_1'         => "您已向管理部门发送通知。",
+'error_complaint_2'         => "你不能对自己发送投诉。",
+// 9.3
+
+// 9.2
+'newpost_notfound'      => "未找到未读发布。",
+'all_votes'         => "网站上的所有投票列表：",
+'vote_disable'      => "投票已完成",
+'vote_disable_1'        => "你已经参与了此次投票",
+'max_votes'         => "总投票数：",
+'vote_ok'       => "谢谢。您的投票已被接受。",
+'bb_list_item'      => "输入列表项。留空退出此次投票。",
+'message_pm_4'      => "关于发布验证的通知",
+'message_pm_5'      => "已被审核员验证：",
+'message_pm_6'      => "审核员已向您发送以下通知：",
+'btn_notice'        => "给作者发送通知",
+'p_send'        => "发送",
+'p_send_ok'         => "通知已成功发送",
+'p_text'        => "输入发送给作者的通知文本，他/她将收到一条私信：",
+'p_message'         => "是的，发送通知",
+// 9.2
+
+// 9.0
+'bb_t_col'      => "颜色:",
+'add_comm'      => "添加评论",
+'p_info'        => "信息",
+'p_confirm'         => "确认",
+'p_prompt'      => "输入信息",
+'p_user'        => "用户：",
+'p_yes'         => "是",
+'p_no'      => "否",
+'p_enter'       => "输入",
+'p_cancel'      => "取消",
+'news_err_42'       => "<li>您有管理权限，因此必须进入管理面板更改网站上的电子邮件地址或密码。出于安全原因，采取了这一步骤。在管理面板中，转到用户管理并在那里找到您的登录以执行必要的更改</li>",
+'news_err_43'       => "您只能在",
+'news_err_44'       => "您已达到每天在网站上添加的允许的最大文章数。",
+'bb_t_upload'       => "上传文件",
+'message_pm'        => "发布删除通知",
+'message_pm_1'      => "您的文章",
+'message_pm_2'      => "已被版主从网站中删除：",
+'message_pm_3'      => "此版主指定了以下原因：",
+'fav_notfound_1'        => "您在此页面上没有收藏夹。返回到上一页。",
+'pm_err_10'         => "您每天不能发送超过 {max} 条私信。",
+'feed_err_9'        => "<li>您每天不能发送超过 {max} 条电子邮件消息。</li>",
+'edit_selcomb'      => "合并评论",
+'login_err_2'       => "警告！您已达到登录网站的最大尝试次数。该帐户的访问被封锁了20分钟。请稍后再试。如果您忘记了密码，您可以在封锁期结束时在网站上进行密码恢复。",
+// 9.0
+
+// 8.5
+'preview_short'         => "简短描述：",
+'preview_full'      => "完整描述：",
+'lost_send'         => "尊敬的访客！根据您的请求生成了一个新密码。此密码已发送到您的电子邮件地址：",
+'news_err_40'       => "根据管理员的判断，您的评论文本太短并且没有有用的信息。",
+'news_err_41'       => "您无权在网站的此部分发布文章。从可用列表中选择一个类别。",
+'edit_selact'       => "-- 操作 --",
+'edit_seldel'       => "删除",
+'edit_rel'      => "编辑",
+'b_start'       => "开始",
+'mass_comments'         => "已选评论：",
+// 8.5
+
+// 8.3
+'lost_password'         => "请点击链接找回您的密码：",
+'lost_ip'       => "请点击链接以重置IP封锁：",
+'lost_clear_ip'         => "IP封锁已重置",
+'lost_clear_ip_1'       => "用户<b>{username}</b>已成功解除IP封锁。",
+'lost_mfg'      => "此致敬礼，\n网站管理团队",
+'c_subscribe'       => "订阅评论",
+'admin'         => "管理员",
+'news_err_37'       => "您的留言内容不符合发布规范。",
+'news_err_38'       => "您的个人信息或签名不符合发布规范。",
+'news_err_39'       => "您的文章内容不符合发布规范。",
+'unsubscribe_ok'        => "您已成功取消订阅此文章的评论。",
+'unsubscribe_err'       => "您未订阅此文章的评论。",
+'nav_trennen'       => "...",
+// 8.3
+
+// 8.2
+'thumb_playtitle'       => "观看幻灯片（空格）",
+'thumb_pausetitle'      => "暂停",
+'thumb_previoustitle'=> "上一张图片",
+'thumb_nexttitle'       => "下一张图片",
+'thumb_movetitle'       => "移动",
+'thumb_closetitle'      => "关闭（Esc）",
+'nl_info_2'         => "用户",
+'news_info_6'       => "在发布后<b>{days}</b>天内，只允许评论文章。",
+'search_s_go'       => "转到页面",
+// 8.2
+
+// 8.0
+'feed_err_8'        => "<li>您无法向此用户发送电子邮件。</li>",
+'bb_flash'      => "输入Flash电影的尺寸（宽度、高度）",
+'bb_flash_url'      => "输入Flash电影的URL",
+'inset_flash_link'      => "插入Flash电影",
+// 8.0
+
+// 7.5
+'news_err_32'       => "<li>网站管理员禁止上传头像到您的用户组。</li>",
+'not_allowed_sig'       => "<li>签名太长了！</li>",
+'news_err_33'       => "此留言的标签不符合发布规范。",
+'news_err_34'       => "您的个人信息或签名中的标签不符合发布规范。",
+'tags_count'        => "共找到以下内容：",
+'news_err_35'       => "<li>无法发布您的姓名。它包含不符合发布规范的字符。</li>",
+'news_err_36'       => "<li>无法发布您的居住地。它包含不符合发布规范的字符。</li>",
+// 7.5
+
+// 7.3
+'reg_err_30'        => "用户名不能为空！",
+'reg_err_31'        => "密码必须至少为6个字符！",
+'reg_err_32'        => "两个字段应该包含相同的内容！",
+'reg_err_33'        => "不正确的电子邮件地址！",
+'rss_user'      => "使用RSS关注所有用户的文章",
+'show_archive'      => "显示/隐藏整个存档",
+'no_message'        => "您目前没有个人消息",
+'spoiler_title'         => "显示/隐藏文本",
+// 7.3
+
+// 7.2
+'news_info_2'       => "网站管理员禁止在此网站上留下评论，直到 <b>{date}</b>。封锁是完全自动化的，您不需要做任何事情来加速或停止它。",
+'news_info_3'       => "网站管理员禁止在此网站上留下评论。",
+'news_info_4'       => "网站管理员禁止在此网站上发布文章，直到 <b>{date}</b>。封锁是完全自动化的过程，您不需要做任何事情来加速或停止它。",
+'news_info_5'       => "网站管理员禁止在此网站上发布文章。",
+'loading'       => "正在加载...",
+'mail_pm'       => "新的个人消息",
+'sort_main'         => "按以下方式排序文章：",
+'sort_by_date'      => "日期",
+'sort_by_rating'        => "评分",
+'sort_by_read'      => "阅读",
+'sort_by_title'         => "标题",
+'sort_by_comm'      => "评论",
+'rules_accept'      => "同意",
+'rules_decline'         => "拒绝",
+'reg_err_21'        => "<li>网站管理员禁止使用此登录名{descr}</li>",
+'reg_err_22'        => "，原因是：{descr}",
+'reg_err_23'        => "<li>网站管理员禁止使用此电子邮件{descr}</li>",
+'reason'        => "指定编辑原因：",
+'tag_cloud'         => "标签云",
+'last_news'         => "网站上最新的文章",
+'all_tags'      => "显示所有标签",
+// 7.2
+
+// 7.0
+'sig_not_allowed'       => "不要填写此字段。您所在的用户组不允许在评论中使用签名。",
+'related_not_found'         => "网站上未找到相关文章。",
+'add_err_9'         => "网站管理员已设置待审核文章的数量限制。网站已达到待审核文章的最大数量。请稍后再尝试添加文章。",
+// 7.0
+
+// 6.7
+'news_delnews'      => "删除文章",
+'news_del_ok'       => "所选文章已成功删除。",
+// 6.7
+
+// 6.5
+'time_heute'        => "今天",
+'time_gestern'      => "昨天",
+'thumb_expandtitle'         => "放大到全屏",
+'thumb_restore'         => "单击关闭图片。单击并按住移动。",
+'thumb_focustitle'      => "聚焦",
+'thumb_cancel'      => "单击取消",
+'all_user_news'         => "查看所有用户发布的文章",
+'show_user_news'        => "用户发布的所有文章",
+'menu_fnews'        => "查找所有文章",
+'reg_next'      => "继续在网站上注册",
+'xf_not_notig'      => "可选的",
+// 6.5
+
+// 6.3
+'no_limit'      => "不限制",
+'title_catalog'         => "分类目录",
+// 6.3
+
+// 6.2
+'s_fsrelate'        => "最相关",
+// 6.2
+
+// 6.0
+'reload_code'       => "如果验证码无法显示，请刷新",
+'news_err_31'       => "您的评论已添加到数据库。管理员审核后，将发布您的评论。",
+'bb_t_font'         => "字体",
+'bb_t_size'         => "字号",
+// 6.0
+
+// 5.7
+'mail_news'         => "有新的文章正在审核中",
+'mail_comments'         => "网站上有新的评论",
+'bb_t_leech'        => "插入受保护的链接",
+// 5.7
+
+// 5.5
+'s_ffullstart'      => "高级搜索",
+'user_logged'       => "您已成功登录。",
+// 5.5
+
+// 5.3
+'bb_t_emo'      => "插入表情符号",
+'pm_to'         => "收件人",
+'approve'       => "（等待审核）",
+'ip_info'       => "IP地址信息",
+'ip_tools'      => "搜索其他用户",
+'ip_ban'        => "封禁地址",
+// 5.3
+
+// 5.2
+'bb_t_code'         => "插入源代码",
+'title_last'        => "评论",
+'title_lost'        => "密码找回",
+'title_search'      => "网站搜索",
+'bb_t_video'        => "插入视频",
+'menu_profile'      => "查看个人资料",
+'menu_fcomments'        => "查找所有评论",
+'menu_send'         => "发送消息",
+'menu_uedit'        => "管理中心",
+// 5.2
+
+'fav_notfound'      => "您没有添加收藏夹",
+'news_err_30'       => "安全码不正确",
+'confirm_ok'        => "您的电子邮件：<b>{email}</b>已确认并获得注册批准。您的登录名：<b>{login}</b>。请点击链接继续网站注册。",
+'s_allcat'      => "- 搜索所有部分 -",
+'s_con'         => "按内容搜索",
+'s_word'        => "关键字：",
+'s_whint'       => "使用以下表达式搜索不同字符串：<br> string1 OR string2 OR ...",
+'s_ncom1'       => "在评论中搜索",
+'s_ncall'       => "在文章和评论中搜索",
+'s_ncom'        => "在文章中搜索",
+'s_tnews'       => "在文章标题中搜索",
+'s_nid'         => "按文章编号搜索",
+'s_static'      => "在静态页面中搜索",
+'s_mname'       => "按用户名搜索",
+'s_fall'        => "搜索文章或评论",
+'s_fname'       => "用户名：",
+'s_fgname'      => "完全匹配",
+'s_fart'        => "查找包含以下内容的文章",
+'s_fmin'        => "不少于",
+'s_fmax'        => "不超过",
+'s_wcomm'       => "条评论",
+'s_fdaten'      => "时间范围",
+'s_tall'        => "全部时间",
+'s_tlast'       => "自上次访问以来",
+'s_tday'        => "一天前",
+'s_tweek'       => "一周前",
+'s_ttweek'      => "两周前",
+'s_tmoth'       => "一个月前",
+'s_tfmoth'      => "三个月前",
+'s_tsmoth'      => "六个月前",
+'s_tyear'       => "一年前",
+'s_fnew'        => "以及以后",
+'s_falt'        => "以及以前",
+'s_fsoft'       => "按以下方式排序搜索结果",
+'s_fsdate'      => "按文章或评论日期",
+'s_fstitle'         => "按文章标题",
+'s_fscnum'      => "按评论数",
+'s_fsnnum'      => "按浏览量",
+'s_fsaut'       => "按作者姓名",
+'s_fscat'       => "按类别",
+'s_fsrate'      => "按文章评分",
+'s_fsdesc'      => "降序",
+'s_fsasc'       => "升序",
+'s_vlegend'         => "结果显示方式",
+'s_vnum'        => "每页显示结果数：",
+'s_vwie'        => "搜索结果显示方式",
+'s_vjump'       => "显示结果 №：",
+'s_vnews'       => "文章",
+'s_vtitle'      => "标题",
+'s_fcats'       => "按类别搜索",
+'s_fstart'      => "开始搜索",
+'s_fstop'       => "停止",
+'s_freset'      => "重置",
+'static_denied'         => "您没有权限查看所选页面。",
+'i_quote'       => "引用：",
+'feed_error'        => "只有\"<b>{group}</b>\"的成员可以使用反馈与网站管理员联系。",
+'search_denied'         => "\"<b>{group}</b>\"的成员无法使用搜索。",
+'news_err_id'       => "文章ID未设置。",
+'comm_req_f'        => "请填写所有必填字段",
+'ip_block_login'        => "注意！您已启用自动IP阻止您的帐户。您的帐户禁止从此子网访问。",
+'mod_list_f'        => "您的待审帖子列表为空",
+'ip_block'      => "管理员已屏蔽您的IP地址或子网",
+'pm_alert'      => "亲爱的<b>{user}</b>，自上次访问以来，您收到了<b>{num}</b>封新的私人消息。",
+'pm_asub'       => "主题：",
+'pm_atitle'         => "您有私人消息",
+'pm_mtitle'         => "单击并按住以移动窗口",
+'pm_aread'      => "阅读消息",
+'pm_close'      => "关闭窗口",
+'att_dcount'        => "下载次数：",
+'att_denied'        => "您无法从我们的服务器下载文件",
+
+'banned_info'       => "无限制。",
+'fav_error'         => "此部分仅供注册用户使用。",
+
+'aj_allowbr'        => "自动换行",
+'pm_selall'         => "全选",
+'b_del'         => "删除所选",
+'last_comm'         => "最新评论",
+'err_last'      => "无评论",
+
+'top_name'      => "名称",
+'top_status'        => "组",
+'top_reg'       => "注册",
+'top_last'      => "最近访问",
+'top_nnum'      => "发表数量",
+'top_cnum'      => "评论数量",
+'top_pm'        => "私信",
+
+'ajax_info'         => "加载中，请稍候……",
+'menu_short'        => "快速编辑",
+'menu_full'         => "完整编辑",
+
+
+'addnews_allow_rate'        => "允许对文章进行评分",
+'sec_image'         => "启用此图片以显示安全码",
+'reg_err_19'        => "<li>安全码不正确</li>",
+'reg_err_20'        => "该用户名已被注册，请尝试另一个。",
+'reg_ok_ajax'       => "您可以使用此用户名进行注册",
+
+'news_page_err'         => "对不起，此页面不适用于您。可能地址已更改或已删除，请使用搜索。",
+'bb_t_up'       => "上传文件和图像",
+'bb_b_up'       => "上传中",
+'next_moth'         => "下个月",
+'prev_moth'         => "上个月",
+'cal_post'      => "所有文章",
+'title_users'       => "用户",
+'title_new'         => "未读",
+'title_date'        => "发布时间",
+'title_stats'       => "站点统计",
+'title_addnews'         => "添加文章",
+'title_register'        => "注册",
+'title_fav'         => "我的收藏",
+'title_pm'      => "个人信息",
+'title_feed'        => "联系我们",
+'title_year'        => "年",
+'title_year1'       => "年",
+'vote_set'      => "投票",
+'vote_result'       => "结果",
+'poll_failed'       => "您必须在此投票中选择至少一个选项",
+
+'excellent'         => "优秀",
+'good'      => "良好",
+'fair'      => "一般",
+'poor'      => "差劲",
+'useless'       => "无用",
+'rated'         => "文章评分：",
+'voten'         => "总票数：",
+'yrate'         => "您的评分：",
+'entrat'        => "评分",
+'unorat'        => "尚未进行评分",
+'urated'        => "用户评分：",
+
+'templ_err_1'       => "模板",
+'templ_err_2'       => "不存在！请检查拼写！",
+
+'all_info'      => "信息",
+'all_prev'      => "返回",
+'all_err'       => "您的浏览器不支持JavaScript。建议启用此支持。",
+'all_err_1'         => "警告！检测到错误",
+
+'reg_err_1'         => "<li>两次输入的密码必须相同！</li>",
+'reg_err_2'         => "<li>密码长度必须在6到72个字符之间！</li>",
+'reg_err_3'         => "<li>用户名长度无效。用户名必须在3到30个字符之间！</li>",
+'reg_err_4'         => "<li>您使用了无效的用户名！</li>",
+'reg_err_5'         => "<li>您使用了无效的密码！</li>",
+'reg_err_6'         => "<li>无效的电子邮件地址！</li>",
+'reg_err_7'         => "用户名不能为空！",
+'reg_err_8'         => "<li>已有该用户名和电子邮件地址的用户已注册！</li>",
+'reg_err_9'         => "网站管理员已禁用网站注册。",
+'reg_err_10'        => "网站上的用户已达到最大数量。请稍后再试。",
+'reg_err_11'        => "注册错误",
+'reg_err_12'        => "<li>头像上传错误！</li>",
+'reg_err_13'        => "<li>只允许上传JPG或PNG格式的图像文件！</li>",
+'reg_err_14'        => "<li>个人信息过长！</li>",
+'reg_err_15'        => "<li>用户名过长！</li>",
+'reg_err_16'        => "<li>不存在该国家！</li>",
+'reg_err_18'        => "警告！检测到错误。",
+'reg_ok'        => "注册完成！",
+'reg_ok_1'      => "感谢您在我们的网站上注册！您现在可以使用您的用户名和密码登录。",
+
+'reg_subj'      => "账户激活",
+'reg_vhead'         => "激活请求已发送",
+'reg_vtext'         => "注册请求已接受。<br><br>网站管理需要验证所有电子邮件地址的身份。您将在10分钟内（可能更早）收到一封包含下一步说明的电子邮件。如果您在此时间内没有收到确认邮件，那么很可能它被认为是垃圾邮件而被过滤了，请检查垃圾邮件文件夹。否则，请尝试使用其他电子邮件地址重新注册或联系网站管理员。",
+
+'add_err_1'         => "<li>标题不能为空</li>",
+'add_err_2'         => "<li>标题过长</li>",
+'xfield_xerr1'      => "<li>您必须填写所有必填字段。</li>",
+'add_err_5'         => "<li>您必须填写出版物注释字段</li>",
+'add_err_6'         => "警告！检测到错误",
+'add_err_7'         => "标题是必填字段",
+'add_err_8'         => "对不起，您无权发布文章。",
+'add_ok'        => "文章已添加",
+'add_ok_1'      => "您的文章已成功添加到数据库。",
+'add_ok_2'      => "您的文章已成功添加到数据库。管理员审核后将发布在网站上。",
+'add_ok_3'      => "您的文章已成功添加到数据库。但是，在未经审核的情况下，您无权在任何部分上发布文章，因此您的文章将在管理员审核后发布。",
+'add_noch'      => "添加更多",
+'add_or'        => "或",
+'add_al_com'        => "允许评论",
+'add_al_m'      => "在主页上发布",
+'add_al_ap'         => "发布到网站",
+'add_al_fix'        => "置顶到网站",
+
+'bb_url'        => "输入链接的完整 URL",
+'bb_page'       => "输入页面编号",
+'bb_url_name'       => "输入链接的描述",
+'bb_page_name'      => "输入链接的描述",
+'bb_image'      => "输入图像的完整 URL",
+'bb_email'      => "输入电子邮件地址",
+'bb_code'       => "示例：[CODE] 在此处输入你的代码... [/CODE]",
+'bb_quote'      => "示例：[QUOTE] 在此处输入你的引用... [/QUOTE]",
+'bb_no_url'         => "你必须输入链接",
+'bb_no_title'       => "你必须输入标题",
+'bb_no_email'       => "你必须输入电子邮件地址",
+'bb_prompt_start'       => "输入需要格式化的文本",
+'bb_img_title'      => "输入图像应该对齐的位置（左、中、右）",
+'bb_email_title'        => "输入链接的描述",
+'bb_b_quote'        => "引用",
+'bb_bb_page'        => "页面",
+'bb_b_close'        => "关闭所有",
+'bb_b_url'      => "链接",
+'bb_b_img'      => "图像",
+'bb_b_mail'         => "电子邮件",
+'bb_b_break'        => "断行",
+'bb_b_page'         => "页面链接",
+'bb_t_b'        => "加粗",
+'bb_t_i'        => "斜体",
+'bb_t_u'        => "下划线",
+'bb_t_s'        => "删除线",
+'bb_t_l'        => "左对齐",
+'bb_t_c'        => "居中对齐",
+'bb_t_r'        => "右对齐",
+'bb_t_cl'       => "关闭所有开启的标签",
+'bb_t_url'      => "插入链接",
+'bb_t_img'      => "插入图像",
+'bb_t_hide'         => "隐藏文本",
+'bb_t_quote'        => "插入引用",
+'bb_t_translit'         => "将选定的文本从转写转换为西里尔字母表",
+'bb_t_m'        => "插入电子邮件",
+'bb_t_br'       => "插入分页符",
+'bb_t_p'        => "插入页面链接",
+'bb_b_cancel'       => "取消",
+'bb_t_cancel'       => "取消编辑并返回原始状态",
+'bb_b_apply'        => "接受更正",
+'bb_t_apply'        => "将更正发送到服务器",
+
+'comm_err_1'        => "只有注册用户才可以使用评论功能",
+'comm_err_2'        => "警告！发现错误",
+'comm_err_3'        => "您没有编辑评论的权限。",
+'comm_err_4'        => "您没有删除所选评论的权限。",
+'comm_err_5'        => "操作未定义或未选择评论。",
+
+'comm_ok'       => "操作成功完成",
+'comm_ok_1'         => "评论已成功更新",
+'comm_ok_2'         => "评论已成功删除。",
+'comm_title'        => "编辑评论",
+
+'login_err'         => "授权错误",
+'login_err_1'       => "警告！登录失败。您可能输入了错误的用户名或密码。",
+
+'search_err_2'      => "很抱歉，未找到站点搜索结果。请尝试更改或缩短您的搜索请求。",
+'search_err_3'      => "搜索已暂停！搜索字符串为空或包含少于4个字符。",
+'search_ok'         => "找到",
+'search_ok_1'       => "个回复",
+'search_ok_2'       => "查询结果",
+'search_title'      => "站点搜索",
+
+'lost_npass'        => "亲爱的访客！在您的请求下，已生成一个新密码。使用以下信息登录网站：",
+'lost_login'        => "登录名：",
+'lost_pass'         => "密码：",
+'lost_info'         => "您可以在登录网站时更改密码。",
+'lost_gen'      => "已生成一个新密码",
+'lost_err'      => "未找到此用户名的用户请求密码恢复，或此链接已过期。只允许使用您在电子邮件中收到的链接尝试一次密码恢复。然后，您需要重新请求密码恢复。",
+'lost_subj'         => "密码恢复",
+'lost_ms'       => "已发送通知",
+'lost_ms_1'         => "尊敬的用户！由于所有密码都是加密的安全原因，我们无法恢复您的旧密码。已向您的电子邮件地址发送生成新密码的通知。",
+'lost_err_1'        => "在数据库中找不到此用户名或电子邮件的用户",
+
+'news_err_1'        => "名称太长。",
+'news_err_2'        => "电子邮件地址太长。",
+'news_err_3'        => "评论太长。",
+'news_err_4'        => "防刷屏已启用。",
+'news_err_5'        => "您只能在",
+'news_err_6'        => "秒之后为此文章添加评论。",
+'news_err_7'        => "<li>很抱歉，您输入了已注册用户的姓名或电子邮件地址。如果您是该用户，则需要登录到控制面板。</li>",
+'news_err_9'        => "“名称”字段是必填的，不能为空。",
+'news_err_10'       => "无效的电子邮件地址。",
+'news_err_11'       => "“评论”字段是必填的，不能为空。",
+'news_err_12'       => "很遗憾，您无法访问此页面。可能已更改其地址，或已删除。请使用搜索。",
+'news_err_13'       => "<li>您没有权限编辑此个人资料！</li>",
+'news_err_14'       => "<li>在上传图片时发生了错误。</li>",
+'news_err_15'       => "<li>仅允许上传JPG，PNG，GIF，BMP或WebP文件。</li>",
+'news_err_16'       => "<li>上传的图片的最大尺寸不应超过{size}千字节。</li>",
+'news_err_17'       => "<li>旧密码无效！</li>",
+'news_err_18'       => "<li>两个密码必须相同！</li>",
+'news_err_19'       => "<li>密码必须为6到72个字符！</li>",
+'news_err_20'       => "<li>您使用了无效的密码！</li>",
+'news_err_21'       => "<li>无效的电子邮件地址！</li>",
+'news_err_22'       => "<li>个人信息太长了！</li>",
+'news_err_23'       => "<li>名称太长了！</li>",
+'news_err_24'       => "<li>不存在此名称的国家！</li>",
+'news_err_26'       => "未找到此用户。",
+'news_err_27'       => "在此网站地址上未找到任何文章，或者您没有权限查看此网站地址上的信息。",
+'news_err_28'       => "没有必要的权限来查看此部分文章。",
+'news_err_29'       => "禁止为此文章添加评论。",
+
+'feed_err_1'        => "<li>用户名无效。</li>",
+'feed_err_2'        => "<li>电子邮件无效。</li>",
+'feed_err_3'        => "<li>电子邮件无效。</li>",
+'feed_err_4'        => "<li>您没有输入消息的主题。</li>",
+'feed_err_5'        => "<li>您没有输入消息的内容。</li>",
+'feed_err_6'        => "无法发送您的消息。",
+'feed_err_7'        => "未找到该用户或他/她不想收到其他用户的电子邮件。",
+
+'feed_ok_1'         => "消息发送成功",
+'feed_ok_2'         => "您的消息已成功发送。",
+'feed_ok_4'         => "返回主页。",
+
+'user_mem'      => "游客",
+'user_ed'       => "记者",
+'user_re'       => "编辑",
+'user_adm'      => "管理员",
+'user_ban'      => "已禁止",
+
+'news_next'         => "下一个",
+'news_prev'         => "上一个",
+'news_site'         => "页",
+'news_iz'       => "/",
+'news_delcom'       => "您确定要删除它吗？此操作无法撤消。",
+'news_regus'        => "警告！您无权查看此文本。",
+'news_info_1'       => "<b>{group}</b>用户不允许评论此发布。",
+'news_mail'         => "发送电子邮件",
+'news_nomail'       => "隐藏",
+'news_noamail'      => "不接收其他用户的电子邮件",
+'news_option'       => "编辑个人资料",
+'news_addfav'       => "添加到我的收藏夹",
+'news_minfav'       => "从我的收藏夹中删除",
+'news_addcom'       => "添加评论",
+'news_pmnew'        => "写私信",
+
+'pm_err_1'      => "抱歉，您不被允许在该网站使用私信功能。",
+'pm_err_2'      => "<li>所有字段都是必填项</li>",
+'pm_err_3'      => "<li>消息主题过长</li>",
+'pm_err_4'      => "<li>找不到此收件人</li>",
+'pm_err_8'      => "<li>此收件人无法接收私信。该收件人的私信数量已达到最大值。</li>",
+'pm_err_5'      => "私信未被删除。您没有选择任何消息，或者您没有权限执行此操作。",
+'pm_err_6'      => "找不到此编号的消息",
+'pm_err_7'      => "您不被允许查看其他用户的私信。",
+'pm_err_9'      => "您的邮箱已达到接收消息的最大数量。在删除不必要的消息之前，您无法收到更多的私信。",
+
+'pm_sendok'         => "您的消息已成功发送。",
+'pm_confirm'        => "您确定要删除此消息吗？",
+'pm_noch'       => "发送更多",
+'pm_main'       => "返回首页",
+'pm_or'         => "或者",
+'pm_delok'      => "所选消息已成功删除。",
+'pm_subj'       => "消息主题",
+'pm_from'       => "发件人",
+'pm_date'       => "日期",
+'pm_action'         => "操作",
+'pm_del'        => "删除",
+
+);
+
+$langtimezones = array(
+    'Pacific/Midway'       => "(GMT-11:00) Midway Island",
+    'US/Samoa'             => "(GMT-11:00) Samoa",
+    'US/Hawaii'            => "(GMT-10:00) Hawaii",
+    'US/Alaska'            => "(GMT-09:00) Alaska",
+    'US/Pacific'           => "(GMT-08:00) Pacific time (US & Canada)",
+    'America/Tijuana'      => "(GMT-08:00) Tijuana",
+    'US/Arizona'           => "(GMT-07:00) Arizona",
+    'US/Mountain'          => "(GMT-07:00) Mountain time (US and Canada)",
+    'America/Chihuahua'    => "(GMT-07:00) Chihuahua",
+    'America/Mazatlan'     => "(GMT-07:00) Mazatlan",
+    'America/Mexico_City'  => "(GMT-06:00) Mexico city",
+    'America/Monterrey'    => "(GMT-06:00) Monterrey",
+    'US/Central'           => "(GMT-06:00) Central time (US & Canada)",
+    'US/Eastern'           => "(GMT-05:00) Eastern time (US & Canada)",
+    'US/East-Indiana'      => "(GMT-05:00) Indiana (East)",
+    'America/Lima'         => "(GMT-05:00) Lima, Bogota",
+    'America/Caracas'      => "(GMT-04:30) Caracas",
+    'Canada/Atlantic'      => "(GMT-04:00) Atlantic time (Canada)",
+    'America/La_Paz'       => "(GMT-04:00) La Paz",
+    'America/Santiago'     => "(GMT-04:00) Santiago",
+    'Canada/Newfoundland'  => "(GMT-03:30) Newfoundland",
+    'America/Buenos_Aires' => "(GMT-03:00) Buenos Aires",
+    'America/Godthab'      => "(GMT-03:00) Greenland",
+    'Atlantic/Stanley'     => "(GMT-02:00) Stanley",
+    'Atlantic/Azores'      => "(GMT-01:00) Azores",
+    'Africa/Casablanca'    => "(GMT) Casablanca",
+    'Europe/Dublin'        => "(GMT) Dublin",
+    'Europe/Lisbon'        => "(GMT) Lisbon",
+    'Europe/London'        => "(GMT) London",
+    'Europe/Amsterdam'     => "(GMT+01:00) Amsterdam",
+    'Europe/Belgrade'      => "(GMT+01:00) Belgrade",
+    'Europe/Berlin'        => "(GMT+01:00) Berlin",
+    'Europe/Bratislava'    => "(GMT+01:00) Bratislava",
+    'Europe/Brussels'      => "(GMT+01:00) Brussels",
+    'Europe/Budapest'      => "(GMT+01:00) Budapest",
+    'Europe/Copenhagen'    => "(GMT+01:00) Copenhagen",
+    'Europe/Madrid'        => "(GMT+01:00) Madrid",
+    'Europe/Paris'         => "(GMT+01:00) Paris",
+    'Europe/Prague'        => "(GMT+01:00) Prague",
+    'Europe/Rome'          => "(GMT+01:00) Rome",
+    'Europe/Sarajevo'      => "(GMT+01:00) Sarajevo",
+    'Europe/Stockholm'     => "(GMT+01:00) Stockholm",
+    'Europe/Vienna'        => "(GMT+01:00) Vienna",
+    'Europe/Warsaw'        => "(GMT+01:00) Warsaw",
+    'Europe/Zagreb'        => "(GMT+01:00) Zagreb",
+    'Europe/Athens'        => "(GMT+02:00) Athens",
+    'Europe/Bucharest'     => "(GMT+02:00) Bucharest",
+    'Europe/Helsinki'      => "(GMT+02:00) Helsinki",
+    'Europe/Istanbul'      => "(GMT+02:00) Istanbul",
+    'Asia/Jerusalem'       => "(GMT+02:00) Jerusalem",
+    'Europe/Kiev'          => "(GMT+02:00) Kiev",
+    'Europe/Minsk'         => "(GMT+02:00) Minsk",
+    'Europe/Riga'          => "(GMT+02:00) Riga",
+    'Europe/Sofia'         => "(GMT+02:00) Sofia",
+    'Europe/Tallinn'       => "(GMT+02:00) Tallinn",
+    'Europe/Vilnius'       => "(GMT+02:00) Vilnius",
+    'Asia/Baghdad'         => "(GMT+03:00) Baghdad",
+    'Asia/Kuwait'          => "(GMT+03:00) Kuwait",
+    'Africa/Nairobi'       => "(GMT+03:00) Nairobi",
+    'Asia/Tehran'          => "(GMT+03:30) Iran, Tehran",
+	'Europe/Kaliningrad'   => "(GMT+02:00) Kaliningrad",
+    'Europe/Moscow'        => "(GMT+03:00) Moscow",
+    'Europe/Volgograd'     => "(GMT+03:00) Volgograd",
+	'Europe/Samara'        => "(GMT+04:00) Samara, Udmurtia",
+	'Asia/Baku'            => "(GMT+04:00) Baku",
+    'Asia/Muscat'          => "(GMT+04:00) Abu Dhabi, Muscat",
+    'Asia/Tbilisi'         => "(GMT+04:00) Tbilisi",
+    'Asia/Yerevan'         => "(GMT+04:00) Yerevan",
+    'Asia/Kabul'           => "(GMT+04:30) Afghanistan, Kabul",
+    'Asia/Yekaterinburg'   => "(GMT+05:00) Ekaterinburg, Perm",
+    'Asia/Tashkent'        => "(GMT+05:00) Tashkent, Karachi",
+    'Asia/Kolkata'         => "(GMT+05:30) Bombay, Calcutta, Madras, New Delhi, Colombo",
+    'Asia/Kathmandu'       => "(GMT+05:45) Kathmandu",
+    'Asia/Almaty'          => "(GMT+06:00) Almaty, Astana",
+    'Asia/Novosibirsk'     => "(GMT+07:00) Novosibirsk",
+    'Asia/Jakarta'         => "(GMT+07:00) Bangkok, Hanoi, Jakarta",
+    'Asia/Krasnoyarsk'     => "(GMT+07:00) Krasnoyarsk",
+    'Asia/Hong_Kong'       => "(GMT+08:00) Hong Kong, Chongqing",
+    'Asia/Kuala_Lumpur'    => "(GMT+08:00) Kuala Lumpur",
+    'Asia/Singapore'       => "(GMT+08:00) Singapore",
+    'Asia/Taipei'          => "(GMT+08:00) Taipei",
+    'Asia/Ulaanbaatar'     => "(GMT+08:00) Ulaanbaatar",
+    'Asia/Urumqi'          => "(GMT+08:00) Urumqi",
+    'Asia/Irkutsk'         => "(GMT+08:00) Irkutsk",
+    'Asia/Seoul'           => "(GMT+09:00) Seoul",
+    'Asia/Tokyo'           => "(GMT+09:00) Tokyo, Osaka, Sapporo",
+    'Australia/Adelaide'   => "(GMT+09:30) Adelaide",
+    'Australia/Darwin'     => "(GMT+09:30) Darwin",
+    'Asia/Yakutsk'         => "(GMT+09:00) Yakutsk",
+    'Australia/Brisbane'   => "(GMT+10:00) Brisbane",
+    'Pacific/Port_Moresby' => "(GMT+10:00) Port Moresby",
+    'Australia/Sydney'     => "(GMT+10:00) Melbourne, Sydney, Canberra",
+    'Asia/Vladivostok'     => "(GMT+10:00) Vladivostok",
+    'Asia/Sakhalin'    	   => "(GMT+11:00) Sakhalin",
+    'Asia/Magadan'         => "(GMT+12:00) Magadan, Kamchatka",
+    'Pacific/Auckland'     => "(GMT+12:00) Auckland, Wellington",
+    'Pacific/Fiji'         => "(GMT+12:00) Fiji, Marshall Islands",
+);
+
+$langdate = array (
+'January'       => "一月",//"January"
+'February'      => "二月",//"February"
+'March'         => "三月",//"March"
+'April'         => "四月",//"April"
+'May'           => "五月",//"May"
+'June'          => "六月",//"June"
+'July'          => "七月",//"July"
+'August'        => "八月",//"August"
+'September'     => "九月",//"September"
+'October'       => "十月",//"October"
+'November'      => "十一月",//"November"
+'December'      => "十二月",//"December"
+'Jan'           => "1月",//"Jan"
+'Feb'           => "2月",//"Feb"
+'Mar'           => "3月",//"Mar"
+'Apr'           => "4月",//"Apr"
+'Jun'           => "6月",//"Jun"
+'Jul'           => "7月",//"Jul"
+'Aug'           => "8月",//"Aug"
+'Sep'           => "9月",//"Sep"
+'Oct'           => "10月",//"Oct"
+'Nov'           => "11月",//"Nov"
+'Dec'           => "12月",//"Dec"
+
+'Sunday'        => "星期日",//"Sunday"
+'Monday'        => "星期一",//"Monday"
+'Tuesday'       => "星期二",//"Tuesday"
+'Wednesday'     => "星期三",//"Wednesday"
+'Thursday'      => "星期四",//"Thursday"
+'Friday'        => "星期五",//"Friday"
+'Saturday'      => "星期六",//"Saturday"
+
+'Sun'           => "周日",//"Sun"
+'Mon'           => "周一",//"Mon"
+'Tue'           => "周二",//"Tue"
+'Wed'           => "周三",//"Wed"
+'Thu'           => "周四",//"Thu"
+'Fri'           => "周五",//"Fri"
+'Sat'           => "周六",//"Sat"
+
+);
+
+
+
+$customlangdate = array (
+'January'       => "一月",//"January",
+'February'      => "二月",//"February",
+'March'         => "三月",//"March",
+'April'         => "四月",//"April",
+'May'           => "五月",//"May",
+'June'          => "六月",//"June",
+'July'          => "七月",//"July",
+'August'        => "八月",//"August",
+'September'     => "九月",//"September",
+'October'       => "十月",//"October",
+'November'      => "十一月",//"November",
+'December'      => "十二月",//"December",
+'Jan'           => "1月",//"Jan",
+'Feb'           => "2月",//"Feb",
+'Mar'           => "3月",//"Mar",
+'Apr'           => "4月",//"Apr",
+'Jun'           => "6月",//"Jun",
+'Jul'           => "7月",//"Jul",
+'Aug'           => "8月",//"Aug",
+'Sep'           => "9月",//"Sep",
+'Oct'           => "10月",//"Oct",
+'Nov'           => "11月",//"Nov",
+'Dec'           => "12月",//"Dec",
+
+'Sunday'        => "星期日",//"Sunday",
+'Monday'        => "星期一",//"Monday",
+'Tuesday'       => "星期二",//"Tuesday",
+'Wednesday'         => "星期三",//"Wednesday",
+'Thursday'      => "星期四",//"Thursday",
+'Friday'        => "星期五",//"Friday",
+'Saturday'      => "星期六",//"Saturday",
+
+'Sun'       => "周日",//"Sun",
+'Mon'       => "周一",//"Mon",
+'Tue'       => "周二",//"Tue",
+'Wed'       => "周三",//"Wed",
+'Thu'       => "周四",//"Thu",
+'Fri'       => "周五",//"Fri",
+'Sat'       => "周六",//"Sat",
+
+);
+
+
+$f  = array('一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月');
+$r  = array('一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月');
+$langdateshortweekdays = array("日", "一", "二", "三", "四", "五", "六");
+
+
+$langtranslit = array(
+'а' => 'a', 'б' => 'b', 'в' => 'v',
+'г' => 'g', 'д' => 'd', 'е' => 'e',
+'ё' => 'e', 'ж' => 'zh', 'з' => 'z',
+'и' => 'i', 'й' => 'y', 'к' => 'k',
+'л' => 'l', 'м' => 'm', 'н' => 'n',
+'о' => 'o', 'п' => 'p', 'р' => 'r',
+'с' => 's', 'т' => 't', 'у' => 'u',
+'ф' => 'f', 'х' => 'h', 'ц' => 'c',
+'ч' => 'ch', 'ш' => 'sh', 'щ' => 'sch',
+'ь' => '', 'ы' => 'y', 'ъ' => '',
+'э' => 'e', 'ю' => 'yu', 'я' => 'ya',
+"ї" => "yi", "є" => "ye",
+
+'А' => 'A', 'Б' => 'B', 'В' => 'V',
+'Г' => 'G', 'Д' => 'D', 'Е' => 'E',
+'Ё' => 'E', 'Ж' => 'Zh', 'З' => 'Z',
+'И' => 'I', 'Й' => 'Y', 'К' => 'K',
+'Л' => 'L', 'М' => 'M', 'Н' => 'N',
+'О' => 'O', 'П' => 'P', 'Р' => 'R',
+'С' => 'S', 'Т' => 'T', 'У' => 'U',
+'Ф' => 'F', 'Х' => 'H', 'Ц' => 'C',
+'Ч' => 'Ch', 'Ш' => 'Sh', 'Щ' => 'Sch',
+'Ь' => '', 'Ы' => 'Y', 'Ъ' => '',
+'Э' => 'E', 'Ю' => 'Yu', 'Я' => 'Ya',
+"Ї" => "yi", "Є" => "ye", 
+"À"=>"A", "à"=>"a", "Á"=>"A", "á"=>"a", 
+"Â"=>"A", "â"=>"a", "Ä"=>"A", "ä"=>"a", 
+"Ã"=>"A", "ã"=>"a", "Å"=>"A", "å"=>"a", 
+"Æ"=>"AE", "æ"=>"ae", "Ç"=>"C", "ç"=>"c", 
+"Ð"=>"D", "È"=>"E", "è"=>"e", "É"=>"E", 
+"é"=>"e", "Ê"=>"E", "ê"=>"e", "Ì"=>"I", 
+"ì"=>"i", "Í"=>"I", "í"=>"i", "Î"=>"I", 
+"î"=>"i", "Ï"=>"I", "ï"=>"i", "Ñ"=>"N", 
+"ñ"=>"n", "Ò"=>"O", "ò"=>"o", "Ó"=>"O", 
+"ó"=>"o", "Ô"=>"O", "ô"=>"o", "Ö"=>"O", 
+"ö"=>"o", "Õ"=>"O", "õ"=>"o", "Ø"=>"O", 
+"ø"=>"o", "Œ"=>"OE", "œ"=>"oe", "Š"=>"S", 
+"š"=>"s", "Ù"=>"U", "ù"=>"u", "Û"=>"U", 
+"û"=>"u", "Ú"=>"U", "ú"=>"u", "Ü"=>"U", 
+"ü"=>"u", "Ý"=>"Y", "ý"=>"y", "Ÿ"=>"Y", 
+"ÿ"=>"y", "Ž"=>"Z", "ž"=>"z", "Þ"=>"B", 
+"þ"=>"b", "ß"=>"ss", "£"=>"pf", "¥"=>"ien", 
+"ð"=>"eth", "ѓ"=>"r"
+);
+
+$relates_word = array ('e' => '[eеё]', 'r' => '[rг]', 't' => '[tт]', 'y' => '[yу]','u' => '[uи]','i' => '[i1l!]','o' => '[oо0]','p' => '[pр]','a' => '[aа]','s' => '[s5]','w' => 'w','q' => 'q','d' => 'd','f' => 'f','g' => '[gд]','h' => '[hн]','j' => 'j','k' => '[kк]','l' => '[l1i!]','z' => 'z','x' => '[xх%]','c' => '[cс]','v' => '[vuи]','b' => '[bвь]','n' => '[nпл]','m' => '[mм]','й' => '[йиu]','ц' => 'ц','у' => '[уy]','е' => '[еeё]','н' => '[нh]','г' => '[гr]','ш' => '[шwщ]','щ' => '[щwш]','з' => '[з3э]','х' => '[хx%]','ъ' => '[ъь]','ф' => 'ф','ы' => '(ы|ь[i1l!]?)','в' => '[вb]','а' => '[аa]','п' => '[пn]','р' => '[рp]','о' => '[оo0]','л' => '[лn]','д' => 'д','ж' => 'ж','э' => '[э3з]','я' => '[я]','ч' => '[ч4]','с' => '[сc]','м' => '[мm]','и' => '[иuй]','т' => '[тt]','ь' => '[ьb]','б' => '[б6]','ю' => '(ю|[!1il][oо0])','ё' => '[ёеe]','1' => '[1il!]','2' => '2','3' => '[3зэ]','4' => '[4ч]','5' => '[5s]','6' => '[6б]','7' => '7','8' => '8','9' => '9','0' => '[0оo]','_' => '_','#' => '#','%' => '[%x]','^' => '[^~]','(' => '[(]',')' => '[)]','=' => '=','.' => '[.]','-' => '-','[' => '[\[]');
+
+?>
