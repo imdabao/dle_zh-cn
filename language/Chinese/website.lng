@@ -5,6 +5,24 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "zh-cn",
 
+// 16.0
+'error_max_queue'       => "超过上传文件的最大允许数量",
+'add_err_12'            => "您没有编辑此发布的权限。",
+'title_editnews'        => "编辑发布",
+'hours_diffs'           => "小时|个小时",
+'minutes_diffs'         => "分钟|个分钟",
+'time_diffs'            => "之前",
+'now_diffs'             => "现在",
+'diffs_format'          => "{date} at {time}",
+'user_says'             => "说：",
+'thumb_imageerror'      => "加载图像失败",
+'thumb_fullscreen'      => "全屏模式",
+'thumb_thtoggle'        => "打开/关闭缩略图",
+'thumb_thzoom'          => "放大/缩小",
+'thumb_thdownload'      => "下载图像",
+// 16.0
+
+
 // 15.3
 'media_upload_st_5'         => "拖放图片到这里",
 'subscribe_info_4'      => "您确定要取消订阅该发布的评论吗？",
@@ -920,6 +938,7 @@ $langtimezones = array(
     'US/Hawaii'            => "(GMT-10:00) Hawaii",
     'US/Alaska'            => "(GMT-09:00) Alaska",
     'US/Pacific'           => "(GMT-08:00) Pacific time (US & Canada)",
+    'America/Los_Angeles'  => "(GMT-08:00) Los Angeles",
     'America/Tijuana'      => "(GMT-08:00) Tijuana",
     'US/Arizona'           => "(GMT-07:00) Arizona",
     'US/Mountain'          => "(GMT-07:00) Mountain time (US and Canada)",
@@ -1100,6 +1119,16 @@ $customlangdate = array (
 'Fri'       => "周五",//"Fri",
 'Sat'       => "周六",//"Sat",
 
+);
+
+$langcommentsweekdays = array(
+'Sunday'    =>    "星期日",
+'Monday'    =>    "星期一",
+'Tuesday'   =>    "星期二",
+'Wednesday'         =>    "星期三",
+'Thursday'  =>    "星期四",
+'Friday'    =>    "星期五",
+'Saturday'  =>    "星期六"
 );
 
 
