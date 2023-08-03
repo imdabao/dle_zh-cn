@@ -5,6 +5,22 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "zh-cn",
 
+// 16.1
+'twofactor_auth_1'      => "关闭",
+'twofactor_auth_2'      => "通过电子邮件提供的一次性PIN码",
+'twofactor_auth_3'      => "一次性 Google Authenticator PIN码",
+'twofactor_auth_4'      => "您可以使用Google Authenticator中的一次性密码启用双重身份验证。您需要将此应用程序或其他兼容的OTP授权应用程序下载到您的智能手机上。然后在该应用程序中扫描指定的QR码。",
+'twofactor_auth_5'      => "请输入应用程序中的PIN码以创建与网站的链接：",
+'twofactor_err_6'       => "输入的PIN码不正确",
+'twofactor_alert_1'     => "您已为您的账户启用了双重身份验证。要登录网站，您需要输入应用程序中的一次性验证码：",
+'twofactor_ok'          => "已启用双重身份验证。",
+'add_ok_4'              => "成功编辑了该文章。",
+'sort_by_edate'         => "修改日期",
+'xfield_xfvideo'        => "上传视频文件",
+'xfield_xfaudio'        => "上传音频文件",
+'download_error'        => "网站管理员限制每天下载不超过{count}个文件。您只能在明天下载此文件。",
+// 16.1
+
 // 16.0
 'error_max_queue'       => "超过上传文件的最大允许数量",
 'add_err_12'            => "您没有编辑此发布的权限。",
