@@ -2,6 +2,25 @@
 
 $lang_logs = array (
 
+    // 17.0
+'admin_logs_action_122' => "在重定向模块中禁用链接",
+'admin_logs_action_123' => "在重定向模块中启用链接",
+'admin_logs_action_124' => "在“元标签”模块中禁用链接",
+'admin_logs_action_125' => "在“元标签”模块中启用链接",
+'admin_logs_action_126' => "在“交叉引用”模块中禁用链接",
+'admin_logs_action_127' => "在“交叉引用”模块中启用链接",
+'admin_logs_action_128' => "添加新存储：",
+'admin_logs_action_129' => "编辑存储：",
+'admin_logs_action_130' => "禁用外部存储",
+'admin_logs_action_131' => "启用外部存储",
+'admin_logs_action_132' => "批量删除外部存储",
+'admin_logs_action_133' => "批量包含外部存储",
+'admin_logs_action_134' => "批量关闭外部存储",
+'admin_logs_action_135' => "更改默认存储",
+'admin_logs_action_136' => "删除存储：",
+'admin_logs_action_137' => "自我删除您的帐户",
+// 17.0
+
 // 14.0
 'admin_logs_action_120' =>  "启用分类，ID：",
 'admin_logs_action_121' =>  "禁用分类，ID：",

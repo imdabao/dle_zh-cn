@@ -1,9 +1,19 @@
 <?php
 
 $lang = array (
+	
+'language_code'  	    =>  "zh-cn",
+'direction'		        =>  "ltr",
 
-'charset'			=>	"utf-8",
-'wysiwyg_language'	=>  "zh-cn",
+// 17.0
+'attach_images'         => "附加图片",
+'self_delete_1'         => "您是否真的要删除您的帐户以及在此站点的所有数据？此操作无法撤消。",
+'self_delete_2'         => "要确认删除您的帐户，您需要输入您帐户的密码：",
+'self_delete_3'         => "删除帐户",
+'self_delete_4'         => "需要密码",
+'self_delete_5'         => "您的帐户以及您的所有数据已从站点中删除。",
+'self_delete_6'         => "您删除帐户的请求已发送给站点管理员。将由站点管理员处理。",
+// 17.0
 
 // 16.1
 'twofactor_auth_1'      => "关闭",
