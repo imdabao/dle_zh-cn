@@ -50,7 +50,7 @@ $lang = array (
 'err_selfdel_1'         =>  "您的用户组不允许自行删除帐户。请联系站点管理",
 'err_selfdel_2'         =>  "管理员不允许自行删除帐户。只有其他管理员可以删除您的帐户",
 'err_selfdel_3'         =>  "您已经向管理员发送了删除帐户的请求。请等待解决方案",
-'selfdel_wait'          =>  "在用户编辑部分，有些用户已发送请求删除其帐户，正在等待您的操作。<a href="?mod=editusers">打开管理</a>",
+'selfdel_wait'          =>  "在用户编辑部分，有些用户已发送请求删除其帐户，正在等待您的操作。<a href='?mod=editusers'>打开管理</a>",
 'selfdel_wait_1'        =>  "已发送删除请求的用户：",
 'selfdel_wait_2'        =>  "请求从站点中删除帐户的用户列表",
 'selfdel_wait_3'        =>  "拒绝删除请求",
