@@ -5,6 +5,12 @@ $lang = array (
 'language_code'  	    =>  "zh-cn",
 'direction'		        =>  "ltr",
 
+// 17.1
+'comm_placeholder'      => "请填写您的评论内容。",
+'comm_a_placeholder'    => "评论作者的姓名",
+'error_complaint_4'     => "您没有提供投诉的文字内容。",
+// 17.1
+
 // 17.0
 'attach_images'         => "附加图片",
 'self_delete_1'         => "您是否真的要删除您的帐户以及在此站点的所有数据？此操作无法撤消。",
