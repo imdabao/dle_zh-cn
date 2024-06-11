@@ -5,6 +5,19 @@ $lang = array (
 'language_code'  	    =>  "zh-cn",
 'direction'		        =>  "ltr",
 
+// 17.2
+'ajax_edit_cat'          => "分类:",
+'group_change_1'         => "您在 <b>{oldgroup}</b> 组的时间已过期。您已被移至 <b>{newgroup}</b> 组。",
+'group_change_2'         => "您已发布了 {count} 篇文章，因此您已从 <b>{oldgroup}</b> 组转移到新的 <b>{newgroup}</b> 组。",
+'group_change_3'         => "您已发布了 {count} 条评论，因此您已从 <b>{oldgroup}</b> 组转移到新的 <b>{newgroup}</b> 组。",
+'group_change_4'         => "根据您的新文章评分，您已从 <b>{oldgroup}</b> 组转移到新的 <b>{newgroup}</b> 组。",
+'group_change_5'         => "根据您的新评论评分，您已从 <b>{oldgroup}</b> 组转移到新的 <b>{newgroup}</b> 组。",
+'addnews_xf_alert_2'     => "字段 <b>{field}</b> 必须包含至少 <b>{count}</b> 个字符",
+'addnews_xf_alert_3'     => "字段 <b>{field}</b> 必须包含不超过 <b>{count}</b> 个字符",
+'error_complaint_5'      => "您已超出目前可以提交给管理员的最大投诉次数。我们对此造成的不便表示歉意，并希望您耐心等待我们处理您已提交的投诉。感谢您的理解。",
+'error_complaint_6'      => "对于您的组 <b>'{group}'</b>，站点管理员禁止发送投诉",
+// 17.2
+
 // 17.1
 'comm_placeholder'      => "请填写您的评论内容。",
 'comm_a_placeholder'    => "评论作者的姓名",
